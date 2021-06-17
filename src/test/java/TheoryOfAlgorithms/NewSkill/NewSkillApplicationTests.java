@@ -56,4 +56,10 @@ class NewSkillApplicationTests {
         lab5.SortByStringField();
         assertEquals(10, lab5.jumpSearch("model #18"));
     }
+
+    @Test
+    void testFormula()
+    {
+        assertEquals(0.5555555555555556, TheoryOfAlgorithms.NewSkill.Exam.CalcExam.Calculate(4));
+    }
 }
